@@ -4,12 +4,10 @@ import com.epam.task0calculator.calculator.Calculator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
-public class TestCalculator {
+class TestCalculator {
 
     @Test
-    public void testSumShouldSumWhenPositive() {
+    void testSumShouldSumWhenPositive() {
         //given
         Calculator calculator = new Calculator();
         //when
@@ -19,7 +17,7 @@ public class TestCalculator {
     }
 
     @Test
-    public void testSumShouldSumWhenNegative() {
+    void testSumShouldSumWhenNegative() {
         //given
         Calculator calculator = new Calculator();
         //when
@@ -29,7 +27,7 @@ public class TestCalculator {
     }
 
     @Test
-    public void testSubtractionShouldSubtractWhenPositive() {
+    void testSubtractionShouldSubtractWhenPositive() {
         //given
         Calculator calculator = new Calculator();
         //when
@@ -39,7 +37,7 @@ public class TestCalculator {
     }
 
     @Test
-    public void testSubtractionShouldSubtractWhenNegative() {
+    void testSubtractionShouldSubtractWhenNegative() {
         //given
         Calculator calculator = new Calculator();
         //when
@@ -49,7 +47,7 @@ public class TestCalculator {
     }
 
     @Test
-    public void testMultiplicationShouldMultiplyWhenPositive() {
+    void testMultiplicationShouldMultiplyWhenPositive() {
         //given
         Calculator calculator = new Calculator();
         //when
@@ -59,7 +57,7 @@ public class TestCalculator {
     }
 
     @Test
-    public void testMultiplicationShouldMultiplyWhenNegative() {
+    void testMultiplicationShouldMultiplyWhenNegative() {
         //given
         Calculator calculator = new Calculator();
         //when
@@ -69,7 +67,7 @@ public class TestCalculator {
     }
 
     @Test
-    public void testDivisionShouldDivideWhenPositive() {
+    void testDivisionShouldDivideWhenPositive() {
         //given
         Calculator calculator = new Calculator();
         //when
@@ -79,7 +77,7 @@ public class TestCalculator {
     }
 
     @Test
-    public void testDivisionShouldDivideWhenNegative() {
+    void testDivisionShouldDivideWhenNegative() {
         //given
         Calculator calculator = new Calculator();
         //when
@@ -89,7 +87,7 @@ public class TestCalculator {
     }
 
     @Test
-    public void testDivisionShouldReturnMessageAndZeroWhenDividerIsZero() {
+    void testDivisionShouldReturnMessageAndZeroWhenDividerIsZero() {
         //given
         Calculator calculator = new Calculator();
         //when

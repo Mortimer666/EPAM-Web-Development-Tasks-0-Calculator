@@ -4,3 +4,4 @@ out/
 target/
 logs/
 .OS_Store/
+.gitignore

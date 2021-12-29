@@ -1,1 +1,1 @@
-EPAM Web Development Tasks 0: Calculator
+EPAM Web Development Task 0: Calculator
